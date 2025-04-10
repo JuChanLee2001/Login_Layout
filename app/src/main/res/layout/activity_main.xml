@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="76dp"
+        android:onClick="onclick"
         android:text="회원가입"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputPS" />
@@ -70,7 +71,7 @@
         android:layout_marginEnd="15dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="아이디 입력"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -84,19 +85,20 @@
 
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Name"
+        android:hint="패스워드 입력"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/id1" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/setView"
         android:layout_width="300dp"
         android:layout_height="130dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="40dp"
+        android:textSize="20sp"
         android:text="입력한 내용이 여기에 표시됩니다."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
